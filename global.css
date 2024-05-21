@@ -9,6 +9,7 @@
 :root {
   --white: #f3f3f3;
   --black: #333;
+  --blue: #007bff;
 }
 
 body {
@@ -21,5 +22,51 @@ body {
   body {
     background-color: var(--black);
     color: var(--white);
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+header {
+  padding: 1rem 0rem;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+  }
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  nav {
+    background-color: var(--black);
+  }
+
+  img {
+    width: 3rem;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
   }
 }
