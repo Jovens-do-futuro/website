@@ -1,25 +1,11 @@
-.header {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  font-weight: bold;
+.main #s-hero {
+  max-width: 1440px;
+  height: 669px;
 }
 
-.main {
-  text-align: justify;
-  padding-left: 30px;
-}
-
-.main p {
-  padding: 15px 30px 10px 0px;
-}
-.main h2 {
-  padding-bottom: 15px;
-}
-
-.main img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.main #s-hero .grid-layout {
+  max-width: 1140px;
+  height: 395px;
+  background-color: grey;
+  margin: 137px auto;
 }
