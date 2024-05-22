@@ -7,22 +7,18 @@
 }
 
 :root {
-  --white: #f3f3f3;
+  --white: #fff;
   --black: #333;
-  --blue: #007bff;
+  --blue: #0b5cf4;
+  --blue-light: #01c2ff;
+  --grey: #d1d2d3;
+  --green-light: #01c2ff;
 }
 
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--white);
   color: var(--black);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--black);
-    color: var(--white);
-  }
 }
 
 footer {
@@ -36,17 +32,33 @@ footer {
   color: var(--white);
 }
 
-header {
-  padding: 1rem 0rem;
-  text-align: center;
+button {
+  cursor: pointer;
+  border: solid 2px var(--blue);
+  color: var(--blue);
+  background-color: transparent;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 0.2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
   background-color: var(--blue);
   color: var(--white);
+}
+
+header {
+  padding: 0.5rem 0 0 0;
+  text-align: center;
+  color: var(--black);
+  border-bottom: solid 1px var(--grey);
 
   ul {
     display: flex;
     list-style: none;
-    justify-content: center;
-    padding: 0;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
   }
 
   li {
@@ -56,17 +68,13 @@ header {
   }
 
   a {
-    color: var(--white);
+    color: var(--black);
     text-decoration: none;
   }
 
-  nav {
-    background-color: var(--black);
-  }
-
   img {
-    width: 3rem;
-    margin-right: 0.5rem;
+    width: 180px;
+    height: 80px;
     border-radius: 0.2rem;
   }
 }
