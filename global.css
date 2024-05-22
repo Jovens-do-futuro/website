@@ -49,7 +49,6 @@ button:hover {
 }
 
 header {
-  padding: 0.5rem 0 0 0;
   text-align: center;
   color: var(--black);
   border-bottom: solid 1px var(--grey);
@@ -58,7 +57,6 @@ header {
     display: flex;
     list-style: none;
     justify-content: space-around;
-    margin-bottom: 0.5rem;
   }
 
   li {
@@ -73,8 +71,7 @@ header {
   }
 
   img {
-    width: 180px;
-    height: 80px;
+    width: 100px;
     border-radius: 0.2rem;
   }
 }
