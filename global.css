@@ -37,7 +37,8 @@ button {
   border: solid 2px var(--blue);
   color: var(--blue);
   background-color: transparent;
-  padding: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
   gap: 10px;
   border-radius: 0.2rem;
   transition: background-color 0.3s, color 0.3s;
