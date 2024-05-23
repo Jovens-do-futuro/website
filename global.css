@@ -76,3 +76,7 @@ header {
     border-radius: 0.2rem;
   }
 }
+
+.grid-layout {
+  max-width: 1140px;
+}
