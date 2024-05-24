@@ -1,3 +1,8 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .home {
   display: flex;
   justify-content: space-around;
@@ -22,4 +27,26 @@
 
 #acoes {
   width: 50%;
+}
+
+#circle {
+  position: absolute;
+  left: -1rem;
+}
+
+#s-mouse {
+  text-align: center;
+}
+
+#mouse {
+  animation: go-up 1s infinite alternate;
+}
+
+@keyframes go-up {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
