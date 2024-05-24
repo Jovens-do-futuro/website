@@ -21,17 +21,6 @@ body {
   color: var(--black);
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem;
-  text-align: center;
-  background-color: var(--blue);
-  color: var(--white);
-}
-
 button {
   cursor: pointer;
   border: solid 2px var(--blue);
@@ -82,8 +71,8 @@ header {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
+  position: fixed;
   left: 0;
   width: 100%;
   padding: 1rem;
