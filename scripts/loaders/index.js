@@ -1,6 +1,9 @@
 export default async (url, callback) => {
   try {
-    const response = await fetch(url);
+    const baseUrl = window.location.origin;
+    const absoluteUrl = new URL(url, baseUrl).href;
+
+    const response = await fetch(absoluteUrl);
 
     const data = await response.text();
 
