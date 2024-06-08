@@ -9,6 +9,7 @@
 
 :root {
   --white: #fff;
+  --white-light: #f8fbfb;
   --black: #333;
   --blue: #0b5cf4;
   --blue-light: #01c2ff;
@@ -19,6 +20,13 @@
 body {
   background-color: var(--white);
   color: var(--black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 button {
@@ -76,11 +84,21 @@ header {
 
 footer {
   bottom: 0;
-  position: fixed;
-  left: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   background-color: var(--blue);
   color: var(--white);
+}
+
+main #s-hero {
+  max-width: 1440px;
+  height: 669px;
+}
+
+main #s-hero .grid-layout {
+  max-width: 1140px;
+  height: 395px;
+  background-color: grey;
+  margin: 137px auto;
 }
