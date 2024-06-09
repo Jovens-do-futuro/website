@@ -46,6 +46,12 @@ a, h1, h2, span {
 }
 
 .h2-text{
+  font-size: 2em;
+  font-weight: 400;
+}
+
+
+.p-text{
   font-size: 1.125em;
   font-weight: 400;
 }
