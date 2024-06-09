@@ -3,26 +3,29 @@ main {
   flex-direction: column;
 }
 
-#home {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 70vh;
+#s-hero{ margin-top: 150px; }
+
+b{
+  color: var(--blue-light);
 }
 
-#home #text {
-  width: 50%;
+.content-hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.box-headline{
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 12px;
 }
 
-#text h1 {
-  font-size: 3rem;
-}
 
-#blue-text {
-  color: var(--blue-light);
+
+.box-headline .button{
+  width: 350px;
 }
 
 #acoes {
@@ -31,17 +34,18 @@ main {
 
 #circle {
   position: absolute;
-  left: -1rem;
+  left: 0px;
+  top: 200px;
 }
 
-#s-mouse {
+.box-mouse {
+  margin-top: 10px;
   text-align: center;
-  height: 30vh;
+  height: 100px;
 }
 
 #mouse {
   animation: go-up 1s infinite alternate;
-  margin: 50px;
 }
 
 @keyframes go-up {
@@ -71,4 +75,36 @@ main {
     width: 80%;
     align-self: center;
   }
+}
+
+
+/* 
+
+██████╗░███████╗░██████╗██████╗░░█████╗░███╗░░██╗░██████╗██╗██╗░░░██╗███████╗  ██╗░░██╗███████╗██████╗░░█████╗░
+██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗████╗░██║██╔════╝██║██║░░░██║██╔════╝  ██║░░██║██╔════╝██╔══██╗██╔══██╗
+██████╔╝█████╗░░╚█████╗░██████╔╝██║░░██║██╔██╗██║╚█████╗░██║╚██╗░██╔╝█████╗░░  ███████║█████╗░░██████╔╝██║░░██║
+██╔══██╗██╔══╝░░░╚═══██╗██╔═══╝░██║░░██║██║╚████║░╚═══██╗██║░╚████╔╝░██╔══╝░░  ██╔══██║██╔══╝░░██╔══██╗██║░░██║
+██║░░██║███████╗██████╔╝██║░░░░░╚█████╔╝██║░╚███║██████╔╝██║░░╚██╔╝░░███████╗  ██║░░██║███████╗██║░░██║╚█████╔╝
+╚═╝░░╚═╝╚══════╝╚═════╝░╚═╝░░░░░░╚════╝░╚═╝░░╚══╝╚═════╝░╚═╝░░░╚═╝░░░╚══════╝  ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░
+
+░██████╗███████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗
+██╔════╝██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+╚█████╗░█████╗░░██║░░╚═╝░░░██║░░░██║██║░░██║██╔██╗██║
+░╚═══██╗██╔══╝░░██║░░██╗░░░██║░░░██║██║░░██║██║╚████║
+██████╔╝███████╗╚█████╔╝░░░██║░░░██║╚█████╔╝██║░╚███║
+╚═════╝░╚══════╝░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
+*/
+
+
+
+@media (max-width: 1024px) {
+
+  .content-hero, .box-headline{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
 }
