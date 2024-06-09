@@ -31,11 +31,12 @@ a, h1, h2, span {
 
 .a-text{
   font-size: 1em;
-  color: var(--black);
+  /* color: var(--black); */
   font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 400;
 }
 
 .h1-text{
@@ -69,8 +70,8 @@ a, h1, h2, span {
   --black: #333;
   --blue: #0b5cf4;
   --blue-light: #01c2ff;
+  --cyan: #63fad1;
   --grey: #d1d2d3;
-  --blue-light: #01c2ff;
   --desktop: ;
   --tablet: ; 
 
