@@ -91,6 +91,5 @@ main #s-hero {
 main #s-hero .grid-layout {
   max-width: 1140px;
   height: 395px;
-  background-color: grey;
   margin: 137px auto;
 }

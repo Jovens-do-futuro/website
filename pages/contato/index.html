@@ -10,17 +10,67 @@
 
     <script src="/scripts/loaders/header.js" type="module"></script>
     <script src="/scripts/loaders/footer.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </head>
   <body>
     <header></header>
     <main>
       <section id="s-hero">
         <div class="grid-layout">
+          <h1 class="h1-text">Página de contato</h1>
+          <p>Lorem ipsum</p>
+          <div class="controle">
+            <form>
+                <div class="form-control">
+                  <label for="nome">Nome</label> <br>
+                  <input type="text" id="nome" name="nome" placeholder="Informe seu nome" />
+                </div>
+  
+                <div class="form-control">
+                  <label for="email">E-mail</label> <br>
+                  <input type="email" id="email" name="email" placeholder="Informe seu e-mail. Ex: nome@gmail.com"/>
+                </div>
+  
+                <div class="form-control">
+                  <label for="mensagem">Mensagem</label> <br>
+                  <textarea id="mensagem" name="mensagem" placeholder="Nos conte um pouco sobre você e o porquê de querer se juntar à nossa organização!"></textarea>
+                </div>
+  
+                <div class="form-control">
+                  <input type="checkbox" id="termos" name="termos" />
+                  <label for="termos">I accept the Terms</label>  
+                </div>
+  
+                <div class="form-control">
+                  <button type="submit" id="enviar">Enviar e-mail →</button>
+                </div>
+            </form>
+  
+            <div class="infos">
+              <div class="email">
+                <bold>Email</bold>
+                <p>Lorem Ipsum</p>
+                <p class="exemplo">hello@relume.io</p>
+              </div>
+              <div class="telefone">
+                <bold>Telefone</bold>
+                <p>Lorem Ipsum</p>
+                <p class="exemplo">+1 (555) 000-0000</p>
+              </div>
+              <div class="loc">
+                <bold>Localização</bold>
+                <p>123 Sample St, Sydney NSW 2000 AU</p>
+              </div>
+            </div>
+
+          </div>
           
+
         </div>
       </section>
     </main>
-    <footer></footer>
 
+    <footer></footer>
   </body>
 </html>
