@@ -1,0 +1,110 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#s-hero{ margin-top: 150px; }
+
+b{
+  color: var(--blue-light);
+}
+
+.content-hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.box-headline{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+.box-headline .button{
+  width: 350px;
+}
+
+#acoes {
+  width: 50%;
+}
+
+#circle {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.box-mouse {
+  margin-top: 10px;
+  text-align: center;
+  height: 100px;
+}
+
+#mouse {
+  animation: go-up 1s infinite alternate;
+}
+
+@keyframes go-up {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#quem-somos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 100px;
+  height: 100vh;
+  background-color: var(--white-light);
+
+  span {
+    margin: 20px 0;
+    width: 80%;
+  }
+
+  img,
+  span {
+    width: 80%;
+    align-self: center;
+  }
+}
+
+
+/* 
+
+██████╗░███████╗░██████╗██████╗░░█████╗░███╗░░██╗░██████╗██╗██╗░░░██╗███████╗  ██╗░░██╗███████╗██████╗░░█████╗░
+██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗████╗░██║██╔════╝██║██║░░░██║██╔════╝  ██║░░██║██╔════╝██╔══██╗██╔══██╗
+██████╔╝█████╗░░╚█████╗░██████╔╝██║░░██║██╔██╗██║╚█████╗░██║╚██╗░██╔╝█████╗░░  ███████║█████╗░░██████╔╝██║░░██║
+██╔══██╗██╔══╝░░░╚═══██╗██╔═══╝░██║░░██║██║╚████║░╚═══██╗██║░╚████╔╝░██╔══╝░░  ██╔══██║██╔══╝░░██╔══██╗██║░░██║
+██║░░██║███████╗██████╔╝██║░░░░░╚█████╔╝██║░╚███║██████╔╝██║░░╚██╔╝░░███████╗  ██║░░██║███████╗██║░░██║╚█████╔╝
+╚═╝░░╚═╝╚══════╝╚═════╝░╚═╝░░░░░░╚════╝░╚═╝░░╚══╝╚═════╝░╚═╝░░░╚═╝░░░╚══════╝  ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░
+
+░██████╗███████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗
+██╔════╝██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+╚█████╗░█████╗░░██║░░╚═╝░░░██║░░░██║██║░░██║██╔██╗██║
+░╚═══██╗██╔══╝░░██║░░██╗░░░██║░░░██║██║░░██║██║╚████║
+██████╔╝███████╗╚█████╔╝░░░██║░░░██║╚█████╔╝██║░╚███║
+╚═════╝░╚══════╝░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
+*/
+
+
+
+@media (max-width: 1024px) {
+
+  .content-hero, .box-headline{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+}
