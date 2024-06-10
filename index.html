@@ -10,55 +10,50 @@
 
     <script src="/scripts/loaders/header.js" type="module" ></script>
     <script src="/scripts/loaders/footer.js" type="module" ></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
   </head>
   <body>
     <header></header>
- 
-    <main>
-      <section id="home">
-        <section id="text">
-          <img src="/assets/circle-hero.png" alt="circulos" id="circle">
+    <main> 
+      <img src="/assets/circle-hero.png" alt="Círculo decorativo" id="circle">
 
-          <h1>
-            Oferecendo Esperança e <br />
-            Oportunidade
-          </h1>
-          <h1>
-            <span id="blue-text">
-              Associação Jovens do <br />
-              Futuro
-            </span>
-            transformando vidas
-          </h1>
-          <span>
-            Descubra como nossa organização filantrópica sem fins lucrativos está
-            fazendo a diferença, proporcionando educação, suporte emocional e
-            alimentação para centenas de jovens em São Paulo.
-          </span>
-          <button id="acoes">Conheça nossas Ações &#8594</button>
-        </section>
-  
-        <section id="s-hero">
-          <img src="/assets/img-hero.png" alt="Criança com boneco" />
-        </section>
+      <section id="s-hero">
+        <div class="grid-layout">
+
+          <div class="content-hero">
+            <div class="box-headline">
+              <h1 class="h1-text">Oferecendo Esperança e Oportunidade <b>Associação Jovens do Futuro</b> Transforma Vidas</h1>
+              <h2 class="h2-text">Descubra como nossa organização filantrópica sem fins lucrativos está fazendo a diferença, proporcionando educação, suporte emocional e alimentação para centenas de jovens em São Paulo.</h2>
+              <button class="button button-text">Conheça nossas ações <i class="bi bi-arrow-right-short"></i></button>
+            </div>
+            <img src="/assets/img-hero.png" alt="Criança com boneco" id="img-hero"/>
+          </div>
+
+          <div class="box-mouse">
+            <img src="/assets/icon-mouse.png" alt="mouse se mexendo" id="mouse">
+          </div>
+      
+        </div>
       </section>
-
-      <div id="s-mouse">
-        <img src="/assets/icon-mouse.png" alt="mouse se mexendo" id="mouse">
-      </div>
+      
 
       <section id="quem-somos">
-        <h1>QUEM SOMOS</h1>
+          <div class="grid-layout">
+            <h1>QUEM SOMOS</h1>
 
-        <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, expedita cum. In odit optio voluptatibus amet
-          pariatur saepe accusamus necessitatibus aut, libero vitae! Dicta officiis perspiciatis nam voluptatem laudantium quaerat.
-        </span>
-
-        <img src="/assets/img-quem-somos.png" alt="Crianças do projeto">
-      </section>
-    </main>
+            <span class="p-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, expedita cum. In odit optio voluptatibus amet
+              pariatur saepe accusamus necessitatibus aut, libero vitae! Dicta officiis perspiciatis nam voluptatem laudantium quaerat.
+            </span>
     
+            <img src="/assets/img-quem-somos.png" alt="Crianças do projeto">
+          </div>
+      </section>
+    </main>  
+
     <footer></footer>
   </body>
 </html>
