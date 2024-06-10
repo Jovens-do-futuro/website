@@ -5,7 +5,7 @@ document.querySelector("#enviar").addEventListener("click", function teste2() {
 })
 
 async function teste(data) {
-  const response = await fetch("http://localhost:4652/send/text", {
+  const response = await fetch("https://web-production-e061.up.railway.app/send/text", {
     method: "post",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(data)
