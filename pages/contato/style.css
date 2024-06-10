@@ -1,17 +1,20 @@
-main #s-hero .grid-layout h1 {
-  color: var(--blue);
+main #s-contato {
+  margin-top: 150px;
 }
 
-main #s-hero .grid-layout .controle {
+main #s-contato .grid-layout h1 {
+  color: var(--blue);
+}
+main #s-contato .grid-layout .controle {
   display: flex;
   justify-content: space-between;
 }
 
-main #s-hero .grid-layout .controle form .form-control textarea {
+main #s-contato .grid-layout .controle form .form-control textarea {
   width: 616px;
   height: 212px;
 }
-main #s-hero .grid-layout .controle form .form-control input[type="text"],
-main #s-hero .grid-layout .controle form .form-control input[type="email"] {
+main #s-contato .grid-layout .controle form .form-control input[type="text"],
+main #s-contato .grid-layout .controle form .form-control input[type="email"] {
   width: 616px;
 }
