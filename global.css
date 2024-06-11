@@ -64,6 +64,9 @@ span {
   --blue: #0b5cf4;
   --blue-light: #01c2ff;
   --grey: #d1d2d3;
+  --green-light: #63fad1;
+  --desktop: ;
+  --tablet: ;
   --blue-light: #01c2ff;
 }
 
@@ -229,14 +232,24 @@ footer {
     justify-content: center;
   }
 }
+
 @media (max-width: 768px) {
   .grid-layout {
     padding: 0 32px;
   }
 }
+
+@media (max-width: 370px) {
+  .grid-layout {
+    padding: 0 18px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 320px) {
   .grid-layout {
     padding: 0 18px;
+    width: 100%;
   }
 }
 
