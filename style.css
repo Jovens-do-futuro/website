@@ -61,7 +61,7 @@ b {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0 100px;
+  padding: 50px 0;
   height: 100vh;
   background-color: var(--white-light);
 

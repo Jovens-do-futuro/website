@@ -231,14 +231,24 @@ footer {
     justify-content: center;
   }
 }
+
 @media (max-width: 768px) {
   .grid-layout {
     padding: 0 32px;
   }
 }
+
+@media (max-width: 370px) {
+  .grid-layout {
+    padding: 0 18px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 320px) {
   .grid-layout {
     padding: 0 18px;
+    width: 100%;
   }
 }
 
