@@ -7,10 +7,6 @@ main {
   margin-top: 150px;
 }
 
-b {
-  color: var(--blue-light);
-}
-
 .content-hero {
   display: flex;
   justify-content: space-between;
