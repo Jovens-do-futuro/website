@@ -29,6 +29,10 @@ span {
   text-decoration: none;
 }
 
+b {
+  color: var(--blue-light);
+}
+
 .a-text {
   font-size: 1em;
   color: var(--black);
