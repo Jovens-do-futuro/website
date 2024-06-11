@@ -197,7 +197,8 @@ footer {
 }
 
 .line {
-  border: solid 1px var(--grey);
+  height: 1px;
+  background: var(--grey);
   width: 100%;
   margin: 1rem 0;
 }

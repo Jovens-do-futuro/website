@@ -62,12 +62,16 @@ b {
   flex-direction: column;
   text-align: center;
   padding: 50px 0;
-  height: 100vh;
+  gap: 24px;
   background-color: var(--white-light);
 
   span {
     margin: 20px 0;
     width: 80%;
+  }
+
+  img{
+    margin-top: 12px;
   }
 
   img,
@@ -148,4 +152,24 @@ b {
     align-items: center;
     text-align: center;
   }
+}
+
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }

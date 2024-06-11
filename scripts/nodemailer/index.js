@@ -1,1 +1,0 @@
-import nodeMailer from 'nodemailer'
