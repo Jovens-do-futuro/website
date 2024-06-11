@@ -230,16 +230,16 @@ footer {
   .grid-layout {
     padding: 0 64px;
   }
-
-  .s-footer {
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 768px) {
   .grid-layout {
     padding: 0 32px;
+  }
+
+  .s-footer {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
