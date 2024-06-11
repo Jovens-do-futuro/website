@@ -60,3 +60,11 @@ p {
 .wrap {
   flex-wrap: wrap-reverse;
 }
+
+
+@media (max-width: 768px) {
+  #s-serviços img{
+    width: 100%;
+    height: auto;
+  }  
+}
