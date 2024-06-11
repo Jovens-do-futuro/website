@@ -1,17 +1,96 @@
-main #s-hero .grid-layout h1 {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+main #s-contato {
+  margin: 150px 0px;
+}
+
+main #s-contato .grid-layout .titulo {
+  width: 720px;
+  height: 108px;
+  margin-bottom: 24px;
+}
+
+main #s-contato .grid-layout .titulo h1 {
   color: var(--blue);
 }
 
-main #s-hero .grid-layout .controle {
-  display: flex;
-  justify-content: space-between;
+main #s-contato .grid-layout .titulo .linha {
+  height: 1px;
+  background-color: var(--grey);
+  margin-bottom: 24px;
 }
 
-main #s-hero .grid-layout .controle form .form-control textarea {
-  width: 616px;
-  height: 212px;
+main #s-contato .grid-layout .controle {
+  display: flex;
+  width: 1012px;
 }
-main #s-hero .grid-layout .controle form .form-control input[type="text"],
-main #s-hero .grid-layout .controle form .form-control input[type="email"] {
+
+main #s-contato .grid-layout .controle form {
+  margin-right: 80px;
+}
+
+main #s-contato .grid-layout .controle form .form-control textarea,
+main #s-contato .grid-layout .controle form .form-control input[type="text"],
+main #s-contato .grid-layout .controle form .form-control input[type="email"]
+{
   width: 616px;
+  border-radius: 5px;
+  border: 1px solid var(--grey);
+  margin: 5px 0px 15px 0px;
+}
+
+main #s-contato .grid-layout .controle form .form-control textarea {
+  height: 212px;
+  padding-left: 12px;
+}
+main #s-contato .grid-layout .controle form .form-control input[type="text"],
+main #s-contato .grid-layout .controle form .form-control input[type="email"] {
+  height: 41px;
+  padding-left: 12px
+}
+
+main #s-contato .grid-layout .controle form .form-control .termos {
+  margin: 5px 0px 24px 0px;
+}
+
+main #s-contato .grid-layout .controle .infos {
+  max-width: 316px;
+  height: 368px;
+}
+
+main #s-contato .grid-layout .controle .infos .superior {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+main #s-contato .grid-layout .controle .infos .superior .email, 
+main #s-contato .grid-layout .controle .infos .superior .telefone {
+  width: 146px;
+  height: 116px;
+}
+
+main #s-contato .grid-layout .controle .infos .superior .email .icone, 
+main #s-contato .grid-layout .controle .infos .superior .telefone .icone, 
+main #s-contato .grid-layout .controle .infos .loc .icone {
+  color: var(--blue-light);
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+main #s-contato .grid-layout .controle .infos .superior .email bold, 
+main #s-contato .grid-layout .controle .infos .superior .telefone bold,
+main #s-contato .grid-layout .controle .infos .loc bold
+ {
+  font-size: 20px;
+}
+
+main #s-contato .grid-layout .controle .infos .superior .email p, 
+main #s-contato .grid-layout .controle .infos .superior .telefone p, 
+main #s-contato .grid-layout .controle .infos .loc p,
+main #s-contato .grid-layout .controle .infos .loc a{
+  font-size: 16px;
+  color:black;
+}
+main #s-contato .grid-layout .controle .infos .loc a:hover{
+  color: var(--blue)
 }
