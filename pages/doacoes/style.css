@@ -1,102 +1,65 @@
 main {
   display: flex;
-  flex-direction: column;
-}
-
-#home {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 70vh;
+  justify-content: center;
 }
 
-#home #text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+#s-doacoes {
+  margin: 120px 0;
 }
 
-#text h1 {
-  font-size: 3rem;
+h1 {
+  margin-top: 32px;
+  text-align: center;
 }
 
-#blue-text {
+div h1 span {
   color: var(--blue-light);
 }
 
-#acoes {
-  width: 50%;
-}
-
-#circle {
-  position: absolute;
-  left: -1rem;
-}
-
-#s-mouse {
+h2 {
+  margin-top: 16px;
   text-align: center;
-  height: 30vh;
 }
 
-#mouse {
-  animation: go-up 1s infinite alternate;
-  margin: 50px;
-}
-
-@keyframes go-up {
-  from {
-    transform: translateY(20px);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-#quem-somos {
+.content-doacoes {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 100px;
-  height: 100vh;
-  background-color: var(--white-light);
-
-  span {
-    margin: 20px 0;
-    width: 80%;
-  }
-
-  img,
-  span {
-    width: 80%;
-    align-self: center;
-  }
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
-#subtitle {
-  font-size: 20px;
-}
-
-#payment-methods {
+.box-payment {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 16px;
 }
 
-#payment-methods h2 {
-  margin: 30px 0 10px 0;
+.box-payment .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 170px;
 }
 
-.box {
-  max-width: 536px;
+.box-payment .card h3 {
+  font-size: 1.5em;
 }
 
-#qr-code-frame {
-  border: 4px solid #000;
-  border-radius: 2%;
+.box-payment .card span {
+  display: block;
 }
 
-#qr-code-img {
+#qr-code-pix {
+  border: 6px var(--black) solid;
+  border-radius: 5%;
   width: 170px;
-  margin: 4px 4px 0 4px;
+}
+
+#img-menino {
+  max-width: 396px;
+  max-height: 454px;
 }
