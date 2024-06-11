@@ -49,10 +49,6 @@ main #s-contato .grid-layout .controle form .form-control input[type="email"] {
   padding-left: 12px
 }
 
-main #s-contato .grid-layout .controle form .form-control .termos {
-  margin: 5px 0px 24px 0px;
-}
-
 main #s-contato .grid-layout .controle .infos {
   max-width: 316px;
   height: 368px;
