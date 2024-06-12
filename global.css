@@ -50,7 +50,13 @@ b {
   line-height: 46.2px;
 }
 
-.h2-text {
+.h2-text{
+  font-size: 2em;
+  font-weight: 400;
+}
+
+
+.p-text{
   font-size: 1.125em;
   font-weight: 400;
 }
@@ -197,7 +203,8 @@ footer {
 }
 
 .line {
-  border: solid 1px var(--grey);
+  height: 1px;
+  background: var(--grey);
   width: 100%;
   margin: 1rem 0;
 }
