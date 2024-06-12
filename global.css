@@ -35,7 +35,7 @@ b {
 
 .a-text {
   font-size: 1em;
-  /* color: var(--black); */
+  color: var(--black);
   font-style: normal;
   display: flex;
   flex-direction: column;
