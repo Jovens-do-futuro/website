@@ -40,6 +40,7 @@ b {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 400;
 }
 
 .h1-text {
@@ -73,6 +74,7 @@ b {
   --black: #333;
   --blue: #0b5cf4;
   --blue-light: #01c2ff;
+  --green-light: #63fad1;
   --grey: #d1d2d3;
   --green-light: #63fad1;
   --desktop: ;
