@@ -51,7 +51,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  background-image: url(../../assets/backgorund-image.jpeg);
+  background-image: url(../../assets/servicos.png);
   background-position: center center;
   border-radius: 12px;
   padding: 0px 12px;
@@ -61,6 +61,11 @@ p {
   flex-wrap: wrap-reverse;
 }
 
+
+.content-serviços img{
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 @media (max-width: 768px) {
   #s-serviços img{
