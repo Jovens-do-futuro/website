@@ -3,6 +3,7 @@
   text-align: center;
 }
 
+
 #s-image img {
   width: 100%;
   height: 600px;
@@ -16,10 +17,11 @@
 }
 
 #s-about {
-  padding: 50px;
   display: flex;
-  justify-items: center;
+  justify-content: space-between;
   align-items: center;
+
+  margin: 64px 0 ;
   gap: 50px;
 }
 
@@ -37,6 +39,11 @@
   gap: 10px;
 }
 
+
+#s-about img{
+  width: 500px;
+}
+
 @media screen and (max-width: 1050px) {
   #s-about {
     flex-direction: column;
@@ -45,4 +52,11 @@
   #s-about img {
     width: 100%;
   }
+}
+
+
+#bg{
+  width: 100%;
+  object-fit: cover;
+  /* background-position: ; */
 }
