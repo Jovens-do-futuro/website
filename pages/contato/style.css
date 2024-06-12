@@ -4,12 +4,6 @@ main #s-contato {
   margin: 150px 0px;
 }
 
-main #s-contato .grid-layout .titulo {
-  width: 720px;
-  height: 108px;
-  margin-bottom: 24px;
-}
-
 main #s-contato .grid-layout .titulo h1 {
   color: var(--blue);
 }
@@ -17,22 +11,18 @@ main #s-contato .grid-layout .titulo h1 {
 main #s-contato .grid-layout .titulo .linha {
   height: 1px;
   background-color: var(--grey);
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 main #s-contato .grid-layout .controle {
   display: flex;
-  width: 1012px;
-}
-
-main #s-contato .grid-layout .controle form {
-  margin-right: 80px;
+  justify-content: space-between;
+  /* background-color: red; */
 }
 
 main #s-contato .grid-layout .controle form .form-control textarea,
 main #s-contato .grid-layout .controle form .form-control input[type="text"],
-main #s-contato .grid-layout .controle form .form-control input[type="email"]
-{
+main #s-contato .grid-layout .controle form .form-control input[type="email"] {
   width: 616px;
   border-radius: 5px;
   border: 1px solid var(--grey);
@@ -46,47 +36,75 @@ main #s-contato .grid-layout .controle form .form-control textarea {
 main #s-contato .grid-layout .controle form .form-control input[type="text"],
 main #s-contato .grid-layout .controle form .form-control input[type="email"] {
   height: 41px;
-  padding-left: 12px
+  padding-left: 12px;
+}
+
+main #s-contato .grid-layout .controle {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main #s-contato .grid-layout .controle .infos {
-  max-width: 316px;
   height: 368px;
 }
 
 main #s-contato .grid-layout .controle .infos .superior {
   display: flex;
   margin-bottom: 40px;
+  display: flex;
+  gap: 24px;
 }
 
-main #s-contato .grid-layout .controle .infos .superior .email, 
+@media (max-width: 1440px) {
+  main #s-contato .grid-layout .controle .infos .superior {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  main #s-contato .grid-layout .controle form .form-control textarea,
+  main #s-contato .grid-layout .controle form .form-control input[type="text"],
+  main
+    #s-contato
+    .grid-layout
+    .controle
+    form
+    .form-control
+    input[type="email"] {
+    width: 100%;
+  }
+
+  main #s-contato .grid-layout .controle form .form-control{
+    width: 85vw;
+  }
+}
+
+main #s-contato .grid-layout .controle .infos .superior .email,
 main #s-contato .grid-layout .controle .infos .superior .telefone {
-  width: 146px;
   height: 116px;
 }
 
-main #s-contato .grid-layout .controle .infos .superior .email .icone, 
-main #s-contato .grid-layout .controle .infos .superior .telefone .icone, 
+main #s-contato .grid-layout .controle .infos .superior .email .icone,
+main #s-contato .grid-layout .controle .infos .superior .telefone .icone,
 main #s-contato .grid-layout .controle .infos .loc .icone {
   color: var(--blue-light);
   margin-bottom: 16px;
   font-size: 24px;
 }
 
-main #s-contato .grid-layout .controle .infos .superior .email bold, 
+main #s-contato .grid-layout .controle .infos .superior .email bold,
 main #s-contato .grid-layout .controle .infos .superior .telefone bold,
-main #s-contato .grid-layout .controle .infos .loc bold
- {
+main #s-contato .grid-layout .controle .infos .loc bold {
   font-size: 20px;
 }
 
-main #s-contato .grid-layout .controle .infos .superior .email p, 
-main #s-contato .grid-layout .controle .infos .superior .telefone p, 
+main #s-contato .grid-layout .controle .infos .superior .email p,
+main #s-contato .grid-layout .controle .infos .superior .telefone p,
 main #s-contato .grid-layout .controle .infos .loc p,
-main #s-contato .grid-layout .controle .infos .loc a{
+main #s-contato .grid-layout .controle .infos .loc a {
   font-size: 16px;
-  color:black;
+  color: black;
 }
-main #s-contato .grid-layout .controle .infos .loc a:hover{
-  color: var(--blue)
+main #s-contato .grid-layout .controle .infos .loc a:hover {
+  color: var(--blue);
 }
