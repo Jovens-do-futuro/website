@@ -168,3 +168,25 @@ swiper-slide img {
   display: block;
   width: 100%;
 }
+
+
+#s-carousel{
+  background-color: var(--white-light);
+  margin-top: 64px;
+}
+
+
+#s-carousel .grid-layout p{
+  max-width: 850px;
+}
+
+
+#s-carousel .grid-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 64px 0;
+  gap: 8px;
+  text-align: center;
+}
